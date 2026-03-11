@@ -80,9 +80,9 @@ jobs:
       - name: Push Docker image
         run: |
           docker tag my-app:${{ github.sha }} ghcr.io/${{ github.repository }}/my-app:latest
-          docker push ghcr.io/${{ github.repository }}/my-app:latest'''
+          docker push ghcr.io/${{ github.repository }}/my-app:latest
 
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 ### 🗝️ 5. Инструкции по настройке (Нумерованный список + Ссылки)
